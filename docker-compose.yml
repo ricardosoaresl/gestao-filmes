@@ -10,4 +10,4 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./:/var/www/gestao-filmes
+      - ./backend-api/:/var/www/gestao-filmes
