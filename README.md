@@ -6,7 +6,7 @@ Requer [Docker](https://www.docker.com).
 docker-compose up -d --build
 docker exec -it movies bash
 composer install
-rename .env.example to .env
+rename /backend-api/.env.example to /backend-api/.env
 php artisan key:generate
 ```
 
