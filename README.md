@@ -15,7 +15,7 @@ php artisan key:generate
  - http://localhost:8080/api/trending (Api)
 
 ### Informacões sobre o projeto
-Gestão de jogos é uma solução que tem por objetivo demonstrar minhas capacidades técnicas em algumas tecnologias
+Gestão de filmes é uma solução que tem por objetivo demonstrar minhas capacidades técnicas em algumas tecnologias
 
 Esta solução consiste em dois projetos principais, backend e frontend.
 
