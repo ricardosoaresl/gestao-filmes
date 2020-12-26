@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  # Gestao Filmes APP
+  movies-app:
+    build:
+      .docker/
+    container_name: movies
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/gestao-filmes
