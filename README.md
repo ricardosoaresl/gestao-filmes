@@ -8,6 +8,11 @@ docker exec -it movies bash
 composer install
 rename /backend-api/.env.example to /backend-api/.env
 php artisan key:generate
+exit
+
+cd frontend-web
+yarn or npm install
+yarn start or npm start
 ```
 
 ### Acesso
